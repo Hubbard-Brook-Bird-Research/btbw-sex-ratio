@@ -1,0 +1,7 @@
+﻿Model Term,Beta,LowerLimit,UpperLimit
+Treatment : Plot elevation,-0.47,-1.49,0.54
+Sex : Treatment,-0.15,-0.53,0.21
+Plot elevation (low),-0.03,-0.43,0.37
+Sex (male),0.003,-0.18,0.19
+Sex : Plot elevation,0.09,-0.32,0.51
+Treatment (food-supplemented),0.12,-0.24,0.48
