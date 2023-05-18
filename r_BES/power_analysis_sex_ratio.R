@@ -49,5 +49,6 @@ summary(sex_trt)
 # determine if data is sufficient to find a weak effect when comparing 2 groups
 # with 64 
 # u is degrees of freedom of numerator, v is degrees of freedom of denominator
-# f2 is small effect size (0.02) from Cohen (1988)
-pwr.f2.test(u = 1, v = 78, f2 = 0.27, sig.level = 0.05)
+# f2 is small effect size (0.02) from Cohen (1988) did not use below
+# f2 is small effect size (0.17) from glm for treatment effect
+pwr.f2.test(u = 1, v = 78, f2 = 0.17, sig.level = 0.05)
